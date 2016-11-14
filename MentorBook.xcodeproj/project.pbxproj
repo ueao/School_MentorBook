@@ -13,6 +13,10 @@
 		58FEC1C71DD990C400B6AE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC1C61DD990C400B6AE3E /* Assets.xcassets */; };
 		58FEC1CA1DD990C400B6AE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC1C81DD990C400B6AE3E /* LaunchScreen.storyboard */; };
 		58FEC1D51DD990C400B6AE3E /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC1D41DD990C400B6AE3E /* MentorBookUITests.swift */; };
+		58FEC1E31DD9915700B6AE3E /* aguri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC1E01DD9915700B6AE3E /* aguri.jpg */; };
+		58FEC1E41DD9915700B6AE3E /* hashio.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC1E11DD9915700B6AE3E /* hashio.JPG */; };
+		58FEC1E51DD9915700B6AE3E /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 58FEC1E21DD9915700B6AE3E /* taithi.JPG */; };
+		58FEC1E71DD99E0200B6AE3E /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FEC1E61DD99E0200B6AE3E /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		58FEC1D01DD990C400B6AE3E /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FEC1D41DD990C400B6AE3E /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		58FEC1D61DD990C400B6AE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58FEC1E01DD9915700B6AE3E /* aguri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aguri.jpg; sourceTree = "<group>"; };
+		58FEC1E11DD9915700B6AE3E /* hashio.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hashio.JPG; sourceTree = "<group>"; };
+		58FEC1E21DD9915700B6AE3E /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		58FEC1E61DD99E0200B6AE3E /* Mentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 				58FEC1C61DD990C400B6AE3E /* Assets.xcassets */,
 				58FEC1C81DD990C400B6AE3E /* LaunchScreen.storyboard */,
 				58FEC1CB1DD990C400B6AE3E /* Info.plist */,
+				58FEC1DF1DD9915700B6AE3E /* images */,
+				58FEC1E61DD99E0200B6AE3E /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -94,6 +104,17 @@
 				58FEC1D61DD990C400B6AE3E /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		58FEC1DF1DD9915700B6AE3E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				58FEC1E01DD9915700B6AE3E /* aguri.jpg */,
+				58FEC1E11DD9915700B6AE3E /* hashio.JPG */,
+				58FEC1E21DD9915700B6AE3E /* taithi.JPG */,
+			);
+			name = images;
+			path = "../../../Text_sch8/06_クラス/images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FEC1E31DD9915700B6AE3E /* aguri.jpg in Resources */,
 				58FEC1CA1DD990C400B6AE3E /* LaunchScreen.storyboard in Resources */,
+				58FEC1E51DD9915700B6AE3E /* taithi.JPG in Resources */,
+				58FEC1E41DD9915700B6AE3E /* hashio.JPG in Resources */,
 				58FEC1C71DD990C400B6AE3E /* Assets.xcassets in Resources */,
 				58FEC1C51DD990C400B6AE3E /* Main.storyboard in Resources */,
 			);
@@ -201,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58FEC1E71DD99E0200B6AE3E /* Mentor.swift in Sources */,
 				58FEC1C21DD990C400B6AE3E /* ViewController.swift in Sources */,
 				58FEC1C01DD990C400B6AE3E /* AppDelegate.swift in Sources */,
 			);
